@@ -1,22 +1,27 @@
-# create-svelte
+# SpreadSheet
+A simple and easy to use bare minimum spreadsheet.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Installation
 
-## Creating a project
+### Clone Repo
 
-If you're seeing this, you've probably already done this step. Congrats!
+Download the source by cloning the repository:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/ahmedazhar05/spreadsheet.git
 ```
 
-## Developing
+### Install Dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Develop
+
+Start a development server:
 
 ```bash
 npm run dev
@@ -25,9 +30,9 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
-To create a production version of your app:
+To create a production version of the spreadsheet app:
 
 ```bash
 npm run build
